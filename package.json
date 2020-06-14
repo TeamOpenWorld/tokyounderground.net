@@ -1,20 +1,19 @@
 {
-  "name": "nextjs",
-  "version": "4.0.0",
+  "name": "tokyounderground.net",
+  "version": "1.0.0",
+  "description": "My smashing Nuxt.js project",
+  "author": "Minato86",
   "private": true,
-  "dependencies": {
-    "@material-ui/core": "latest",
-    "@material-ui/icons": "^4.9.1",
-    "clsx": "latest",
-    "next": "latest",
-    "prop-types": "latest",
-    "react": "latest",
-    "react-dom": "latest"
-  },
   "scripts": {
-    "dev": "next",
-    "build": "next build",
-    "start": "next start",
-    "post-update": "echo \"codesandbox preview only, need an update\" && yarn upgrade --latest"
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.0.0"
   }
 }

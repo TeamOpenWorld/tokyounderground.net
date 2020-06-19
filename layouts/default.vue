@@ -24,14 +24,12 @@
                 </v-list-item>
             </v-list>
         </v-navigation-drawer>
-        <v-app-bar :clipped-left="clipped" fixed app>
+        <v-app-bar :clipped-left="clipped" fixed app collapse-on-scroll>
             <v-app-bar-nav-icon @click.stop="drawer = !drawer" />
             <v-toolbar-title v-text="title" />
         </v-app-bar>
         <v-content>
-            <v-container>
-                <nuxt />
-            </v-container>
+            <nuxt />
         </v-content>
         <v-navigation-drawer
             v-model="rightDrawer"
@@ -50,8 +48,8 @@
                 </v-list-item>
             </v-list>
         </v-navigation-drawer>
-        <v-footer :fixed="fixed" app>
-            <span>&copy; {{ new Date().getFullYear() }}</span>
+        <v-footer>
+            <span>&copy; {{ new Date().getFullYear() }} TeamOpenWorld</span>
         </v-footer>
     </v-app>
 </template>
@@ -65,7 +63,7 @@
                 fixed: true,
                 items: [
                     {
-                        icon: "mdi-apps",
+                        icon: "mdi-home",
                         title: "Welcome",
                         to: "/",
                     },
@@ -78,7 +76,7 @@
                 miniVariant: false,
                 right: true,
                 rightDrawer: false,
-                title: "Vuetify.js",
+                title: "TokyoUnderground",
             };
         },
     };

@@ -58,13 +58,13 @@ export default {
                         code: "ja",
                         name: "Japanese",
                         iso: "ja_JP",
-                        file: "ja.json",
+                        file: "ja-JP.json",
                     },
                     {
                         code: "en",
                         name: "English",
                         iso: "en-US",
-                        file: "en.json",
+                        file: "en-US.json",
                     },
                 ],
                 defaultLocale: "ja", // デフォルトの言語

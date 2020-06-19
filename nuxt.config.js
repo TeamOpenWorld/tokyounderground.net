@@ -28,9 +28,9 @@ export default {
     loading: { color: "#fff", height: "5px" },
 
     loadingIndicator: {
-        name: 'rotating-plane',
-        color: '#ffffff',
-        background: 'black'
+        name: "rotating-plane",
+        color: "#ffffff",
+        background: "black",
     },
 
     /*
@@ -48,7 +48,37 @@ export default {
     /*
      ** Nuxt.js modules
      */
-    modules: [],
+    modules: [
+        [
+            "nuxt-i18n",
+            {
+                // 使用する言語の設定
+                locales: [
+                    {
+                        code: "ja",
+                        name: "Japanese",
+                        iso: "ja_JP",
+                        file: "ja.json",
+                    },
+                    {
+                        code: "en",
+                        name: "English",
+                        iso: "en-US",
+                        file: "en.json",
+                    },
+                ],
+                defaultLocale: "ja", // デフォルトの言語
+                langDir: "locales/", // 翻訳ファイルのディレクトリパス
+                strategy: "prefix_and_default", // URLに言語のプレフィックスを追加するかの指定
+                vueI18n: {
+                    // 翻訳ファイルが見つからなかった場合の言語を指定
+                    fallbackLocale: "ja",
+                },
+                vueI18nLoader: true,
+                lazy: true, // 遅延読み込みの有効化
+            },
+        ],
+    ],
     /*
      ** vuetify module configuration
      ** https://github.com/nuxt-community/vuetify-module

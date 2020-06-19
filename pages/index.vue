@@ -7,9 +7,9 @@
             <v-row align="center" justify="center">
                 <v-col class="text-center" cols="12">
                     <h1 class="display-1 font-weight-thin mb-4">
-                        {{ $t("test") }}
+                        {{ $t("index.top") }}
                     </h1>
-                    <h4 class="subheading">JYOTA chang suki suki</h4>
+                    <h4 class="subheading">{{$t("index.description")}}</h4>
                 </v-col>
             </v-row>
         </v-parallax>

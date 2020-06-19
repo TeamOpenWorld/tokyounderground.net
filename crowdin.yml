@@ -1,3 +1,0 @@
-files:
-  - source: /locales/ja-JP.json
-    translation: /locales/%locale%.json

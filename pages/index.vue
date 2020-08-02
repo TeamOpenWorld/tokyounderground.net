@@ -1,5 +1,6 @@
 <template>
     <div>
+<<<<<<< Updated upstream
         <v-parallax
             dark
             src="https://cdn.vuetifyjs.com/images/backgrounds/vbanner.jpg"
@@ -32,6 +33,8 @@
             <h1>ジョウタだよ～～～</h1>
             <h1>ジョウタだよ～～～</h1>
         </v-container>
+=======
+>>>>>>> Stashed changes
     </div>
 </template>
 

@@ -16,7 +16,7 @@
 
         head() {
             return {
-                title: "Top",
+                title: "Release",
             };
         },
     };

@@ -8,8 +8,8 @@
             />
             </div>
 
-            <div class="flex-1 w-full text-center text-white main">
-                <p class="text-2xl">始めよう、最初から。</p>
+            <div class="flex-1 w-full text-center text-white">
+                <p class="text-2xl main">始めよう、最初から。</p>
             </div>
         </div>
         <div>

@@ -83,6 +83,7 @@ export default {
                 vueI18nLoader: true,
                 lazy: true, // 遅延読み込みの有効化
             },
+            'nuxt-webfontloader',
         ],
     ],
 

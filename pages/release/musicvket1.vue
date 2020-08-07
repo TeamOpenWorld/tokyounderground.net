@@ -1,14 +1,15 @@
 <template>
     <div>
-        <div class="w-full h-screen text-white bg-gray-900 overflow-hidden">
+        <div class="w-full h-screen items-center bg-gray-900 lg:flex hidden">
+            <div class="flex-1 h-full">
             <img
                 src="~/assets/initialized_logo.svg"
-                class="h-full w-full transform -translate-x-96 fill-current text-blue-200 absolute"
+                class="h-full w-full fill-current text-blue-200"
             />
-            <div class="flex content-center flex-wrap h-screen transform translate-x-84">
-                <div class="w-full text-center ">
-                    <p class="text-2xl">始めよう、最初から。</p>
-                </div>
+            </div>
+
+            <div class="flex-1 w-full text-center text-white main">
+                <p class="text-2xl">始めよう、最初から。</p>
             </div>
         </div>
         <div>
@@ -19,8 +20,6 @@
 
 <script>
     export default {
-        asyncData() {},
-
         head() {
             return {
                 title: "MusicVket1",
@@ -28,3 +27,10 @@
         },
     };
 </script>
+
+<style scoped>
+    .main {
+        font-family: "M PLUS 1p", sans-serif;
+        font-weight: 700;
+    }
+</style>

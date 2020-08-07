@@ -1,5 +1,5 @@
 export default {
-    mode: "spa",
+    mode: "universal",
     /*
      ** Headers of the page
      */
@@ -85,6 +85,12 @@ export default {
             },
         ],
     ],
+
+    webfontloader: {
+        google: {
+            families: ["M PLUS 1p:700"],
+        },
+    },
     /*
      ** Build configuration
      */

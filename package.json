@@ -12,8 +12,7 @@
   },
   "dependencies": {
     "nuxt": "^2.0.0",
-    "nuxt-i18n": "^6.12.2",
-    "nuxt-webfontloader": "^1.1.0"
+    "nuxt-i18n": "^6.12.2"
   },
   "devDependencies": {
     "@nuxtjs/google-analytics": "^2.4.0",

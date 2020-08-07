@@ -42,7 +42,15 @@ export default {
     /*
      ** Nuxt.js dev-modules
      */
-    buildModules: ['@nuxtjs/tailwindcss'],
+    buildModules: [
+        "@nuxtjs/tailwindcss",
+        [
+            "@nuxtjs/google-analytics",
+            {
+                id: "UA-136377412-5",
+            },
+        ],
+    ],
     /*
      ** Nuxt.js modules
      */

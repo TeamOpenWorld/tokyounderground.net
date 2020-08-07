@@ -83,13 +83,13 @@ export default {
                 vueI18nLoader: true,
                 lazy: true, // 遅延読み込みの有効化
             },
-            'nuxt-webfontloader',
         ],
+        "nuxt-webfontloader",
     ],
 
     webfontloader: {
         google: {
-            families: ["M PLUS 1p:700"],
+            families: ["M PLUS 1p"],
         },
     },
     /*

@@ -38,16 +38,16 @@
             <div class="py-24 text-center text-white">
                 <h1 class="text-5xl">TRACKS</h1>
                 <div
-                    class="items-stretch hidden lg:flex container mx-auto mt-6"
+                    class="lg:flex-wrap lg:flex container mx-auto mt-6"
                 >
                     <div class="flex-1 m-2">
                         <img
                             src="~/assets/initialized_jacket.png"
-                            class="w-full h-full"
+                            class="w-full h-full shadow-xl"
                         />
                     </div>
-                    <div class="flex-1 text-white text-left m-2 ml-8">
-                        <div class="text-2xl py-6 main">
+                    <div class="flex-1 text-white text-left mx-5 lg:m-2 lg:ml-8">
+                        <div class="lg:text-2xl py-12 main">
                             <ul>
                                 <li type="1" class="list-inside my-1">
                                     p0m - bangin' time
@@ -77,7 +77,7 @@
                                     hapi⇒ feat. DJ Raisei & p0m - Wind dancer (Wild Wind Mix)
                                 </li>
                             </ul>
-                            <p class="mt-8 text-3xl">計9曲 1000円</p>
+                            <p class="mt-8 text-2xl lg:text-3xl">計9曲 1000円</p>
                         </div>
                     </div>
                 </div>

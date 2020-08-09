@@ -15,6 +15,18 @@
                 </p>
             </div>
         </div>
+        <div class="w-full h-screen bg-gray-900 flex items-center lg:hidden">
+            <div class="flex-1">
+                <div class="ml-3">
+                    <img src="~/assets/initialized_logo_sm.svg" />
+                </div>
+                <div class="text-white text-center">
+                    <p class=" text-base">
+                        東京の地下で、新しい物語が始まろうとしている。<br />さぁ、始めよう。最初から。
+                    </p>
+                </div>
+            </div>
+        </div>
         <div class="bg-blue-900">
             <div class="container mx-auto py-24 px-3 text-white text-center">
                 <h1 class="text-5xl">ABOUT</h1>
@@ -37,35 +49,40 @@
         <div class="bg-gray-800">
             <div class="py-24 text-center text-white">
                 <h1 class="text-5xl">TRACKS</h1>
-                <div
-                    class="lg:flex-wrap lg:flex container mx-auto mt-6"
-                >
+                <div class="lg:flex-wrap lg:flex container mx-auto mt-6">
                     <div class="flex-1 m-2">
                         <img
                             src="~/assets/initialized_jacket.png"
                             class="w-full h-full shadow-xl"
                         />
                     </div>
-                    <div class="flex-1 text-white text-left mx-5 lg:m-2 lg:ml-8">
+                    <div
+                        class="flex-1 text-white text-left mx-5 lg:m-2 lg:ml-8"
+                    >
                         <div class="lg:text-2xl py-12 main">
                             <ul>
                                 <li type="1" class="list-inside my-1">
                                     p0m - bangin' time
                                 </li>
                                 <li type="1" class="list-inside my-1">
-                                    Factory (JAPAN) - I'll Be There (p0m Remix)
+                                    ミツキ - Rise and Shine
                                 </li>
+                                <li type="1" class="list-inside my-1">
+                                    DJ Raisei - ✕✕✕∑ ⃠ ⅂◸⢸⦻⍂✕✕✕
+                                </li>
+
                                 <li type="1" class="list-inside my-1">
                                     Factory (JAPAN) - I'll Be There
                                 </li>
                                 <li type="1" class="list-inside my-1">
-                                    ミツキ - Rise and Shine
+                                    hapi⇒ feat. DJ Raisei & p0m - Wind dancer
+                                    (Wild Wind Mix)
                                 </li>
                                 <li type="1" class="list-inside my-1">
                                     橋本琉芽 - Dread
                                 </li>
                                 <li type="1" class="list-inside my-1">
-                                    DJ Raisei - ✕✕✕∑ ⃠ ⅂◸⢸⦻⍂✕✕✕
+                                    Factory (JAPAN) - I'll Be There (p0m Remix)
                                 </li>
                                 <li type="1" class="list-inside my-1">
                                     S2i8 - Back2U
@@ -73,14 +90,65 @@
                                 <li type="1" class="list-inside my-1">
                                     ClumsyHypnosis - Trip
                                 </li>
-                                <li type="1" class="list-inside my-1">
-                                    hapi⇒ feat. DJ Raisei & p0m - Wind dancer (Wild Wind Mix)
-                                </li>
                             </ul>
-                            <p class="mt-8 text-2xl lg:text-3xl">計9曲 1000円</p>
+                            <p class="mt-8 text-2xl lg:text-3xl">
+                                計9曲 1000円
+                            </p>
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+        <div class=" bg-gray-700">
+            <div
+                class="h-full w-full text-center text-white flex items-center py-24"
+            >
+                <div class="flex-1 container mx-auto">
+                    <h1 class="text-5xl mb-2">XFD</h1>
+                    <div class="w-full relative aspect-ratio-16/9 mb-3">
+                        <iframe
+                            src="https://www.youtube.com/embed/uwJgJemiHt0"
+                            class="absolute"
+                            width="100%"
+                            height="100%"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen
+                        ></iframe>
+                    </div>
+                    <a href="#" class="text-blue-400 hover:text-white"
+                        >bilibili動画</a
+                    >
+                    /
+                    <a
+                        href="https://www.nicovideo.jp/watch/sm37325404"
+                        class="text-blue-400 hover:text-white"
+                        target="_brank"
+                        >ニコニコ動画</a
+                    >
+                </div>
+            </div>
+        </div>
+        <div class=" bg-gray-900">
+            <div
+                class="h-full w-full text-center text-white flex items-center py-24"
+            >
+                <div class="flex-1 container mx-auto">
+                    <h1 class="text-5xl mb-2">BUY</h1>
+                    <p class="text-4xl mb-6">VirtualMarketβ</p>
+                    <a
+                        href="#"
+                        target="_brank"
+                        class="border rounded-lg text-2xl px-5 py-1 transition duration-500 ease-in-out hover:bg-white hover:text-gray-900 transform"
+                        >Comming soon...</a
+                    >
+                </div>
+            </div>
+        </div>
+        <div class="bg-gray-800">
+            <div class="container mx-auto py-4 px-2 text-white">
+                <p>サイト内の画像、音源の権利はすべて製作者又はTeamOpenWorldに帰属します。 <br>
+                (c) 2020 TeamOpenWorld</p>
             </div>
         </div>
     </div>

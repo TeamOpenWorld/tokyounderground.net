@@ -99,6 +99,43 @@
                 </div>
             </div>
         </div>
+        <div class=" bg-gray-700">
+            <div
+                class="h-full w-full text-center text-white flex items-center py-24"
+            >
+                <div class="flex-1 container mx-auto">
+                    <h1 class="text-5xl mb-2">XFD</h1>
+                    <iframe
+                        width="100%"
+                        height="166"
+                        scrolling="no"
+                        frameborder="no"
+                        allow="autoplay"
+                        src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/872806507&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"
+                    ></iframe>
+                    <div
+                        style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"
+                    >
+                        <a
+                            href="https://soundcloud.com/toykounderground"
+                            title="TokyoUnderground"
+                            target="_blank"
+                            style="color: #cccccc; text-decoration: none;"
+                            >TokyoUnderground</a
+                        >
+                        ·
+                        <a
+                            href="https://soundcloud.com/toykounderground/initialized-xfd"
+                            title='Compilation Album "Initialized" XFD【MusicVket1】'
+                            target="_blank"
+                            style="color: #cccccc; text-decoration: none;"
+                            >Compilation Album &quot;Initialized&quot;
+                            XFD【MusicVket1】</a
+                        >
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class=" bg-gray-900">
             <div
                 class="h-full w-full text-center text-white flex items-center py-24"
@@ -117,8 +154,11 @@
         </div>
         <div class="bg-gray-800">
             <div class="container mx-auto py-4 px-2 text-white">
-                <p>サイト内の画像、音源の権利はすべて製作者又はTeamOpenWorldに帰属します。 <br>
-                (c) 2020 TeamOpenWorld</p>
+                <p>
+                    サイト内の画像、音源の権利はすべて製作者又はTeamOpenWorldに帰属します。
+                    <br />
+                    (c) 2020 TeamOpenWorld
+                </p>
             </div>
         </div>
     </div>

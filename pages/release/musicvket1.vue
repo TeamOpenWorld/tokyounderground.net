@@ -99,36 +99,6 @@
                 </div>
             </div>
         </div>
-        <div class=" bg-gray-700">
-            <div
-                class="h-full w-full text-center text-white flex items-center py-24"
-            >
-                <div class="flex-1 container mx-auto">
-                    <h1 class="text-5xl mb-2">XFD</h1>
-                    <div class="w-full relative aspect-ratio-16/9 mb-3">
-                        <iframe
-                            src="https://www.youtube.com/embed/uwJgJemiHt0"
-                            class="absolute"
-                            width="100%"
-                            height="100%"
-                            frameborder="0"
-                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen
-                        ></iframe>
-                    </div>
-                    <a href="#" class="text-blue-400 hover:text-white"
-                        >bilibili動画</a
-                    >
-                    /
-                    <a
-                        href="https://www.nicovideo.jp/watch/sm37325404"
-                        class="text-blue-400 hover:text-white"
-                        target="_brank"
-                        >ニコニコ動画</a
-                    >
-                </div>
-            </div>
-        </div>
         <div class=" bg-gray-900">
             <div
                 class="h-full w-full text-center text-white flex items-center py-24"

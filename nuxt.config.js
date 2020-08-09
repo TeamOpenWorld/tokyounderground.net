@@ -1,7 +1,5 @@
-import colors from "vuetify/es5/util/colors";
-
 export default {
-    mode: "spa",
+    mode: "universal",
     /*
      ** Headers of the page
      */
@@ -44,7 +42,15 @@ export default {
     /*
      ** Nuxt.js dev-modules
      */
-    buildModules: ["@nuxtjs/vuetify"],
+    buildModules: [
+        "@nuxtjs/tailwindcss",
+        [
+            "@nuxtjs/google-analytics",
+            {
+                id: "UA-136377412-5",
+            },
+        ],
+    ],
     /*
      ** Nuxt.js modules
      */
@@ -78,26 +84,12 @@ export default {
                 lazy: true, // 遅延読み込みの有効化
             },
         ],
+        "nuxt-webfontloader",
     ],
-    /*
-     ** vuetify module configuration
-     ** https://github.com/nuxt-community/vuetify-module
-     */
-    vuetify: {
-        customVariables: ["~/assets/variables.scss"],
-        theme: {
-            dark: true,
-            themes: {
-                dark: {
-                    primary: colors.blue.darken2,
-                    accent: colors.grey.darken3,
-                    secondary: colors.amber.darken3,
-                    info: colors.teal.lighten1,
-                    warning: colors.amber.base,
-                    error: colors.deepOrange.accent4,
-                    success: colors.green.accent3,
-                },
-            },
+
+    webfontloader: {
+        google: {
+            families: ["M PLUS 1p"],
         },
     },
     /*

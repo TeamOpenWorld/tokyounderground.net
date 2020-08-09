@@ -1,15 +1,14 @@
 <template>
-    <v-app dark>
-        <h1 v-if="error.statusCode === 404">
-            {{ pageNotFound }}
-        </h1>
-        <h1 v-else>
-            {{ otherError }}
-        </h1>
-        <NuxtLink to="/">
-            Home page
-        </NuxtLink>
-    </v-app>
+    <div class="flex content-center flex-wrap h-screen">
+        <div class="w-full text-center">
+            <p class="text-3xl" v-if="error.statusCode === 404">{{ pageNotFound }}</p>
+            <p class="text-3xl" v-else>{{ otherError }}</p>         
+            <p class="text-2xl">ぴえん🥺</p>
+            <nuxt-link to="" class="text-blue-500"
+                >MusicVket1特設ページはこちら</nuxt-link
+            >
+        </div>
+    </div>
 </template>
 
 <script>
@@ -38,9 +37,3 @@
         },
     };
 </script>
-
-<style scoped>
-    h1 {
-        font-size: 20px;
-    }
-</style>

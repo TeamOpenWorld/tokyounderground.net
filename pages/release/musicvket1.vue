@@ -17,7 +17,7 @@
         </div>
         <div class="w-full h-screen bg-gray-900 flex items-center lg:hidden">
             <div class="flex-1">
-                <div class="ml-3">
+                <div class="ml-3 mr-2 mb-3">
                     <img src="~/assets/initialized_logo_sm.svg" />
                 </div>
                 <div class="text-white text-center">
@@ -30,7 +30,7 @@
         <div class="bg-blue-900">
             <div class="container mx-auto py-24 px-3 text-white text-center">
                 <h1 class="text-5xl">ABOUT</h1>
-                <div class="text-lg sm:text-lg lg:text-2xl xl:text-2xl">
+                <div class="text-base sm:text-base lg:text-2xl xl:text-2xl">
                     <p class=" main mt-6">
                         新たに発足した楽曲プロモーションレーベルのTokyoUndergroundから<br />初めてのコンピレーションアルバムがリリース。
                     </p>

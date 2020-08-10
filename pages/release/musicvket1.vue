@@ -68,7 +68,10 @@
                                     ミツキ - Rise and Shine
                                 </li>
                                 <li type="1" class="list-inside my-1">
-                                    DJ Raisei - <span class="symbol">✕✕✕∑ ⃠ ⅂◸⢸⦻⍂✕✕✕</span>
+                                    DJ Raisei -
+                                    <span class="symbol"
+                                        >&#10005;&#10005;&#10005;&#8721;&#32;&#8416;&#32;&#8514;&#9720;&#10424;&#10683;&#9026;&#10005;&#10005;&#10005;</span
+                                    >
                                 </li>
 
                                 <li type="1" class="list-inside my-1">
@@ -157,8 +160,6 @@
                 <p>
                     サイト内の画像、音源の権利はすべて製作者又はTeamOpenWorldに帰属します。
                     <br />
-                    特殊文字の都合上、一部表示が崩れる場合がございます。
-                    <br>
                     (c) 2020 TeamOpenWorld
                 </p>
             </div>
@@ -183,6 +184,7 @@
     }
 
     .symbol {
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+            Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     }
 </style>

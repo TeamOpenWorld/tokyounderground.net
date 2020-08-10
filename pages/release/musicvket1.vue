@@ -68,7 +68,7 @@
                                     ミツキ - Rise and Shine
                                 </li>
                                 <li type="1" class="list-inside my-1">
-                                    DJ Raisei - ✕✕✕∑ ⃠ ⅂◸⢸⦻⍂✕✕✕
+                                    DJ Raisei - <span class="symbol">✕✕✕∑ ⃠ ⅂◸⢸⦻⍂✕✕✕</span>
                                 </li>
 
                                 <li type="1" class="list-inside my-1">
@@ -178,5 +178,9 @@
     .main {
         font-family: "M PLUS 1p", sans-serif;
         font-weight: 300;
+    }
+
+    .symbol {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
 </style>

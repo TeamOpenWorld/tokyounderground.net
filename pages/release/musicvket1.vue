@@ -59,39 +59,83 @@
                     <div
                         class="flex-1 text-white text-left mx-5 lg:m-2 lg:ml-8"
                     >
-                        <div class="lg:text-2xl py-12 main">
+                        <div class="lg:text-2xl py-12 main line">
                             <ul>
                                 <li type="1" class="list-inside my-1">
-                                    p0m - bangin' time
+                                    <a
+                                        href="https://twitter.com/DJ_ALUCARD_13"
+                                        target="_brank"
+                                        >p0m - bangin' time</a
+                                    >
                                 </li>
                                 <li type="1" class="list-inside my-1">
-                                    ミツキ - Rise and Shine
+                                    <a
+                                        href="https://twitter.com/mitsuki_hotta"
+                                        target="_brank"
+                                        >ミツキ - Rise and Shine</a
+                                    >
                                 </li>
                                 <li type="1" class="list-inside my-1">
-                                    DJ Raisei -
-                                    <span class="symbol"
-                                        >&#10005;&#10005;&#10005;&#8721;&#32;&#8416;&#32;&#8514;&#9720;&#10424;&#10683;&#9026;&#10005;&#10005;&#10005;</span
+                                    <a
+                                        href="https://twitter.com/_Raisei"
+                                        target="_brank"
+                                    >
+                                        DJ Raisei -
+                                        <span class="symbol"
+                                            >&#10005;&#10005;&#10005;&#8721;&#32;&#8416;&#32;&#8514;&#9720;&#10424;&#10683;&#9026;&#10005;&#10005;&#10005;</span
+                                        ></a
                                     >
                                 </li>
 
                                 <li type="1" class="list-inside my-1">
-                                    Factory (JAPAN) - I'll Be There
+                                    <a
+                                        href="https://twitter.com/factorymusic_jp"
+                                        target="_brank"
+                                    >
+                                        Factory (JAPAN) - I'll Be There</a
+                                    >
                                 </li>
                                 <li type="1" class="list-inside my-1">
-                                    hapi⇒ feat. DJ Raisei & p0m - Wind dancer
-                                    (Wild Wind Mix)
+                                    <a
+                                        href="https://twitter.com/hapinano"
+                                        target="_brank"
+                                    >
+                                        hapi⇒ feat. DJ Raisei & p0m - Wind
+                                        dancer (Wild Wind Mix)</a
+                                    >
                                 </li>
                                 <li type="1" class="list-inside my-1">
-                                    橋本琉芽 - Dread
+                                    <a
+                                        href="https://twitter.com/ruga_H"
+                                        target="_brank"
+                                    >
+                                        橋本琉芽 - Dread</a
+                                    >
                                 </li>
                                 <li type="1" class="list-inside my-1">
-                                    Factory (JAPAN) - I'll Be There (p0m Remix)
+                                    <a
+                                        href="https://twitter.com/DJ_ALUCARD_13"
+                                        target="_brank"
+                                    >
+                                        Factory (JAPAN) - I'll Be There (p0m
+                                        Remix)</a
+                                    >
                                 </li>
                                 <li type="1" class="list-inside my-1">
-                                    S2i8 - Back2U
+                                    <a
+                                        href="https://twitter.com/S2i8_kurumizawa"
+                                        target="_brank"
+                                    >
+                                        S2i8 - Back2U</a
+                                    >
                                 </li>
                                 <li type="1" class="list-inside my-1">
-                                    ClumsyHypnosis - Trip
+                                    <a
+                                        href="https://twitter.com/ClumsyHypnosis"
+                                        target="_brank"
+                                    >
+                                        ClumsyHypnosis - Trip</a
+                                    >
                                 </li>
                             </ul>
                             <p class="mt-8 text-2xl lg:text-3xl">
@@ -161,7 +205,7 @@
                     サイト内の画像、音源の権利はすべて製作者又はTeamOpenWorldに帰属します。
                     <br />
                     特殊文字の都合上、一部表示が崩れる場合がございます。
-                    <br>
+                    <br />
                     (c) 2020 TeamOpenWorld
                 </p>
             </div>
@@ -188,5 +232,27 @@
     .symbol {
         font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
             Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    }
+
+    .line li {
+        font-size: 24px;
+        margin: 0 8px;
+    }
+
+    .line li a {
+        text-decoration: none;
+    }
+
+    .line li a:after {
+        content: "";
+        width: 0;
+        transition: all 0.3s ease;
+        border-bottom: 1px solid;
+        display: block;
+    }
+
+    .line li a:hover:after {
+        width: 100%;
+        border-bottom: 1px solid;
     }
 </style>

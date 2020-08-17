@@ -191,7 +191,7 @@
                     <h1 class="text-5xl mb-2">BUY</h1>
                     <p class="text-4xl mb-6">VirtualMarketβ</p>
                     <a
-                        href="https://www.v-market.work/ec/mypage/items/3572/detail/"
+                        href="https://www.v-market.work/ec/items/3572/detail/"
                         target="_brank"
                         class="border rounded-lg text-2xl px-5 py-1 transition duration-500 ease-in-out hover:bg-white hover:text-gray-900 transform"
                         >Buy on VirtualMarketβ</a

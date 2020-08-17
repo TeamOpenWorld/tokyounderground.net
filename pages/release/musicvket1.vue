@@ -199,6 +199,22 @@
                 </div>
             </div>
         </div>
+                <div class=" bg-gray-600">
+            <div
+                class="h-full w-full text-center text-white flex items-center py-24"
+            >
+                <div class="flex-1 container mx-auto">
+                    <h1 class="text-5xl mb-2">Twitter</h1>
+                    <p class="text-2xl mb-6 main">最新情報はTwitterをご覧ください！</p>
+                    <a
+                        href="https://twitter.com/undergrounet"
+                        target="_brank"
+                        class="border rounded-lg text-2xl px-5 py-1 transition duration-500 ease-in-out hover:bg-white hover:text-gray-900 transform"
+                        >Official Twitter</a
+                    >
+                </div>
+            </div>
+        </div>
         <div class="bg-gray-800">
             <div class="container mx-auto py-4 px-2 text-white">
                 <p>

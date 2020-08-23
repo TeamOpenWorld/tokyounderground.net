@@ -146,6 +146,71 @@
                 </div>
             </div>
         </div>
+        <div class=" bg-gray-900">
+            <div
+                class="h-full w-full text-center text-white flex items-center py-24"
+            >
+                <div class="flex-1 container mx-auto">
+                    <h1 class="text-5xl mb-2">STAFF</h1>
+                    <div class="lg:flex lg:content-center lg:flex-wrap mx-5">
+                        <div class="lg:w-1/3 my-12 text-center">
+                            <a
+                                href="https://twitter.com/minatoo86"
+                                target="_blank"
+                                class="text-4xl transition duration-500 ease-in-out hover:text-blue-300"
+                                >巳波みなと</a
+                            >
+                            <p>主催 / Webページ</p>
+                        </div>
+                        <div class="lg:w-1/3 my-12 text-center">
+                            <a
+                                href="https://twitter.com/DJ_ALUCARD_13"
+                                target="_blank"
+                                class="text-4xl transition duration-500 ease-in-out hover:text-blue-300"
+                                >ぽむ/p0m</a
+                            >
+                            <p>運営 / プロデューサー / マスタリング</p>
+                        </div>
+                        <div class="lg:w-1/3 my-12 text-center">
+                            <a
+                                href="https://twitter.com/hakua_loveEQ"
+                                target="_blank"
+                                class="text-4xl transition duration-500 ease-in-out hover:text-blue-300"
+                                >ハクアを博愛する人</a
+                            >
+                            <p>運営 / XFD映像</p>
+                        </div>
+                        <div class="lg:w-1/3 my-12 text-center">
+                            <a
+                                href="https://twitter.com/Ne______st"
+                                target="_blank"
+                                class="text-4xl transition duration-500 ease-in-out hover:text-blue-300"
+                                >ライト</a
+                            >
+                            <p>運営</p>
+                        </div>
+                        <div class="lg:w-1/3 my-12 text-center">
+                            <a
+                                href="https://twitter.com/SEED264"
+                                target="_blank"
+                                class="text-4xl transition duration-500 ease-in-out hover:text-blue-300"
+                                >星野なたね</a
+                            >
+                            <p>運営</p>
+                        </div>
+                        <div class="lg:w-1/3 my-12 text-center">
+                            <a
+                                href="https://twitter.com/mitsuki_hotta"
+                                target="_blank"
+                                class="text-4xl transition duration-500 ease-in-out hover:text-blue-300"
+                                >ミツキ</a
+                            >
+                            <p>ジャケットデザイン</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class=" bg-gray-700">
             <div
                 class="h-full w-full text-center text-white flex items-center py-24"
@@ -199,13 +264,15 @@
                 </div>
             </div>
         </div>
-                <div class=" bg-gray-600">
+        <div class=" bg-gray-600">
             <div
                 class="h-full w-full text-center text-white flex items-center py-24"
             >
                 <div class="flex-1 container mx-auto">
                     <h1 class="text-5xl mb-2">Twitter</h1>
-                    <p class="text-2xl mb-6 main">最新情報はTwitterをご覧ください！</p>
+                    <p class="text-2xl mb-6 main">
+                        最新情報はTwitterをご覧ください！
+                    </p>
                     <a
                         href="https://twitter.com/undergrounet"
                         target="_brank"

@@ -40,7 +40,7 @@
                 </div>
                 <a
                     href="https://music.v-market.work/"
-                    target="_brank"
+                    target="_blank"
                     class="border rounded-lg text-2xl px-5 py-1 transition duration-500 ease-in-out hover:bg-white hover:text-gray-900 transform"
                     >MusicVket1</a
                 >
@@ -64,21 +64,21 @@
                                 <li type="1" class="list-inside my-1">
                                     <a
                                         href="https://twitter.com/DJ_ALUCARD_13"
-                                        target="_brank"
+                                        target="_blank"
                                         >p0m - bangin' time</a
                                     >
                                 </li>
                                 <li type="1" class="list-inside my-1">
                                     <a
                                         href="https://twitter.com/mitsuki_hotta"
-                                        target="_brank"
+                                        target="_blank"
                                         >ミツキ - Rise and Shine</a
                                     >
                                 </li>
                                 <li type="1" class="list-inside my-1">
                                     <a
                                         href="https://twitter.com/_Raisei"
-                                        target="_brank"
+                                        target="_blank"
                                     >
                                         DJ Raisei -
                                         <span class="symbol"
@@ -90,7 +90,7 @@
                                 <li type="1" class="list-inside my-1">
                                     <a
                                         href="https://twitter.com/factorymusic_jp"
-                                        target="_brank"
+                                        target="_blank"
                                     >
                                         Factory (JAPAN) - I'll Be There</a
                                     >
@@ -98,7 +98,7 @@
                                 <li type="1" class="list-inside my-1">
                                     <a
                                         href="https://twitter.com/hapinano"
-                                        target="_brank"
+                                        target="_blank"
                                     >
                                         hapi⇒ feat. DJ Raisei & p0m - Wind
                                         dancer (Wild Wind Mix)</a
@@ -107,7 +107,7 @@
                                 <li type="1" class="list-inside my-1">
                                     <a
                                         href="https://twitter.com/ruga_H"
-                                        target="_brank"
+                                        target="_blank"
                                     >
                                         橋本琉芽 - Dread</a
                                     >
@@ -115,7 +115,7 @@
                                 <li type="1" class="list-inside my-1">
                                     <a
                                         href="https://twitter.com/DJ_ALUCARD_13"
-                                        target="_brank"
+                                        target="_blank"
                                     >
                                         Factory (JAPAN) - I'll Be There (p0m
                                         Remix)</a
@@ -124,7 +124,7 @@
                                 <li type="1" class="list-inside my-1">
                                     <a
                                         href="https://twitter.com/S2i8_kurumizawa"
-                                        target="_brank"
+                                        target="_blank"
                                     >
                                         S2i8 - Back2U</a
                                     >
@@ -132,7 +132,7 @@
                                 <li type="1" class="list-inside my-1">
                                     <a
                                         href="https://twitter.com/ClumsyHypnosis"
-                                        target="_brank"
+                                        target="_blank"
                                     >
                                         ClumsyHypnosis - Trip</a
                                     >
@@ -257,7 +257,7 @@
                     <p class="text-4xl mb-6">VirtualMarketβ</p>
                     <a
                         href="https://www.v-market.work/ec/items/3572/detail/"
-                        target="_brank"
+                        target="_blank"
                         class="border rounded-lg text-2xl px-5 py-1 transition duration-500 ease-in-out hover:bg-white hover:text-gray-900 transform"
                         >Buy on VirtualMarketβ</a
                     >
@@ -275,7 +275,7 @@
                     </p>
                     <a
                         href="https://twitter.com/undergrounet"
-                        target="_brank"
+                        target="_blank"
                         class="border rounded-lg text-2xl px-5 py-1 transition duration-500 ease-in-out hover:bg-white hover:text-gray-900 transform"
                         >Official Twitter</a
                     >

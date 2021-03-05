@@ -12,7 +12,7 @@
             <NuxtLink class="link" to="/release/musicvket1"
                 >MusicVket1 (Japanese page Only)</NuxtLink
             ><br />
-            <a href="/release/musicvket2">MusicVket2 (Japanese page Only)</a>
+            <a href="./release/musicvket2">MusicVket2 (Japanese page Only)</a>
             <br />
             <a href="https://open-w.net">運営情報 / Organization</a>
         </div>

@@ -41,8 +41,6 @@ a {
 
 <script>
 export default {
-    layout: "main",
-
     asyncData() {},
 
     head() {

@@ -20,7 +20,7 @@
   "devDependencies": {
     "@nuxtjs/google-analytics": "2.4.0",
     "@nuxtjs/tailwindcss": "4.2.1",
-    "autoprefixer": "10.3.1",
+    "autoprefixer": "10.4.0",
     "postcss": "8.3.6",
     "tailwindcss": "2.2.7",
     "tailwindcss-responsive-embed": "1.0.0"

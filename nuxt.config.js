@@ -89,7 +89,7 @@ export default {
 
     webfontloader: {
         google: {
-            families: ["M PLUS 1p"],
+            families: ["M PLUS 1p", "Zen Kurenaido", "Caveat", "M PLUS Rounded 1c:400", "Zen Maru Gothic:500"],
         },
     },
     /*

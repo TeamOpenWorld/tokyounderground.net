@@ -5,7 +5,6 @@ export default {
      */
     head: {
         titleTemplate: "%s - " + "TokyoUnderground",
-        title: process.env.npm_package_name || "",
         meta: [
             { charset: "utf-8" },
             {
@@ -15,8 +14,37 @@ export default {
             {
                 hid: "description",
                 name: "description",
-                content: process.env.npm_package_description || "",
+                content: "Community for music lovers.",
             },
+            { name: "format-detection", content: "telephone=no" },
+            {
+                hid: "og:site_name",
+                property: "og:site_name",
+                content: "tokyounderground.net",
+            },
+            { hid: "og:type", property: "og:type", content: "website" },
+            {
+                hid: "og:url",
+                property: "og:url",
+                content: "https://tokyounderground.net",
+            },
+            {
+                hid: "og:title",
+                property: "og:title",
+                content: "TokyoUnderground Official Site.",
+            },
+            {
+                hid: "og:description",
+                property: "og:description",
+                content: "Community for music lovers.",
+            },
+            {
+                hid: "og:image",
+                property: "og:image",
+                content:
+                    "https://i.gyazo.com/b4eeb86912a675d95db7ca23d0880558.jpg",
+            },
+            { name: "twitter:card", content: "summary" },
         ],
         link: [{ rel: "icon", type: "image/svg+xml", href: "/favicon.svg" }],
     },
@@ -89,7 +117,13 @@ export default {
 
     webfontloader: {
         google: {
-            families: ["M PLUS 1p", "Zen Kurenaido", "Caveat", "M PLUS Rounded 1c:400", "Zen Maru Gothic:500"],
+            families: [
+                "M PLUS 1p",
+                "Zen Kurenaido",
+                "Caveat",
+                "M PLUS Rounded 1c:400",
+                "Zen Maru Gothic:500",
+            ],
         },
     },
     /*

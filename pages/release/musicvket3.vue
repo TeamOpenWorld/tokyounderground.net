@@ -216,6 +216,7 @@ export default {
                     },
                     {
                         name: "Todayday",
+                        img: "https://i.gyazo.com/5a7f8962a43065c9a3e5044758b92d5a.jpg"
                     },
                 ],
                 staff: [

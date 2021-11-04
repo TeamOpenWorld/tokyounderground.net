@@ -187,7 +187,7 @@ export default {
                     {
                         name: "Liglica",
                         img:
-                            "https://i.gyazo.com/716c626734f55f379320207339e5b135.jpg",
+                            "https://i.gyazo.com/80a28d38a95d383e4789eeb8a1f08167.png",
                         url: "https://twitter.com/ruga_H",
                     },
                     {

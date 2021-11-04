@@ -22,7 +22,7 @@
     "@nuxtjs/tailwindcss": "4.2.1",
     "autoprefixer": "10.4.0",
     "postcss": "8.3.11",
-    "tailwindcss": "2.2.7",
+    "tailwindcss": "2.2.19",
     "tailwindcss-responsive-embed": "1.0.0"
   }
 }

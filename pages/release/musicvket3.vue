@@ -159,6 +159,27 @@
 
 <script>
 export default {
+    head() {
+        return {
+            title: "真夜中の精神独行",
+            meta: [
+                {
+                    hid: 'og:title',
+                    property: 'og:title',
+                    content: "真夜中の精神独行",
+                },
+                {
+                    hid: 'og:image',
+                    property: 'og:image',
+                    content: "https://i.gyazo.com/f7a8d430f83a7d5c8ae81e81d01457ec.png",
+                },
+                {
+                    name: 'twitter:card',
+                    content: 'summary_large_image'
+                }
+            ]
+        }
+    },
     data() {
         return {
             members: {

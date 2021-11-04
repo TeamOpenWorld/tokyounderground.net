@@ -1,11 +1,11 @@
 <template>
-    <div class="flex content-center flex-wrap h-screen">
-        <div class="w-full text-center">
+    <div class="flex items-center justify-center h-screen">
+        <div class="text-center">
             <p class="text-3xl" v-if="error.statusCode === 404">{{ pageNotFound }}</p>
             <p class="text-3xl" v-else>{{ otherError }}</p>         
-            <p class="text-2xl">ぴえん🥺</p>
-            <nuxt-link to="" class="text-blue-500"
-                >MusicVket1特設ページはこちら</nuxt-link
+            <img class="my-5" width="340px" src="~/assets/mmimage0.png" alt="">
+            <nuxt-link to="/" class="text-blue-500"
+                >トップページに戻る</nuxt-link
             >
         </div>
     </div>

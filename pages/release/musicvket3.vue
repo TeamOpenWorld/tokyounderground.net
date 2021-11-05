@@ -92,13 +92,13 @@
                 <h1 class="text-xl md:text-2xl">＼以下のサイトで購入可能です／</h1>
                 <div class="grid grid-cols-1 md:grid-cols-3 mt-10 gap-5 text-3xl tracks">
                     <div>
-                        <a href="#">Booth</a>
+                        <a href="https://tokyounderground.booth.pm/items/3318406" target="_blank">Booth</a>
                     </div>
                     <div>
-                        <a href="#">Vket Store</a>
+                        <a href="https://www.store.vket.com/ec/items/6118/detail/" target="_blank">Vket Store</a>
                     </div>
                     <div>
-                        <a href="#">Bandcamp</a>
+                        <a href="https://tokyounderground.bandcamp.com/album/midnight-spiritual-solitude" target="_Blank">Bandcamp</a>
                     </div>
                 </div>
             </div>
